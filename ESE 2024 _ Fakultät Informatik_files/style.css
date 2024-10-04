@@ -1,0 +1,102 @@
+body {
+  font-family: sans-serif;
+  background: #fefefe;
+}
+
+h1 {
+  font-family: aileron, sans-serif;
+  font-weight: 900;
+  color: #F221B7;
+}
+
+h2 {
+  font-family: aileron, sans-serif;
+  font-weight: 400;
+  color: #F221B7;
+}
+
+h3 {
+  font-family: aileron, sans-serif;
+  font-weight: 400;
+  color: #F221B7;
+}
+
+.eseInConstruct {
+  max-width: 100%;
+  max-height: 500px;
+}
+
+nav {
+  margin-top: 4rem;
+  border-top: 1px dotted rgba(0,0,0,.15);
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav li {
+  display: block;
+  margin-bottom: .5em;
+}
+
+.schedule {
+  position: relative;
+  width: 100%;
+  overflow-x: scroll;
+}
+table {
+  border-spacing: 0;
+}
+
+td {
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  padding: 0.5em;
+}
+tr:not(:first-child) th {
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  position: sticky;
+  left: 0;
+  background: #fefefe;
+}
+th {
+  border-bottom: 1px solid black;
+}
+th:first-child {
+  position: sticky;
+  left: 0;
+  background: #fefefe;
+}
+tr {
+  position: relative;
+  height: 42px;
+}
+tr::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 1px dotted rgba(0,0,0,0.5);
+}
+
+.wichtig {
+  background-color: #aed095;
+}
+.essen {
+  background-color: #ffe994;
+}
+.kennenlernen {
+  background-color: #b7b3ca;
+}
+.fachinformationen {
+  background-color: #ffa6a6;
+}
+.uni-event {
+  background-color: #ffb66c;
+}
+.stadt-event {
+  background-color: #729fcf;
+}
